@@ -35,13 +35,13 @@ Nesta Sprint 1/5, o foco é exclusivamente o **planejamento do banco de dados**.
 
 **Nome completo:**
 
-> Preencha aqui.
+> Leslie Bruna Pires dos Santos.
 
 **Nome escolhido para o banco de dados:**
 
 ```text
 
-```
+``` db_loja_online
 
 ---
 
@@ -73,7 +73,7 @@ Alguns exemplos:
 
 ### Tema escolhido
 
-> Escreva aqui.
+> db_loja_online.
 
 ---
 
@@ -90,7 +90,9 @@ A descrição deve responder:
 
 ### Descrição
 
-> Escreva aqui.
+> 1.
+2. vendedores, operador de caixa, gerente e administradores
+3. Produto,cliente,.
 
 ---
 
@@ -100,7 +102,7 @@ Explique qual é o principal objetivo do banco de dados proposto.
 
 ### Objetivo
 
-> Escreva aqui.
+> Cadastro de cliente,cosultar historico de vendas, produto que mais está saindoe registro dos pedidos.
 
 ---
 
@@ -112,11 +114,11 @@ Liste as principais funcionalidades ou informações que deverão ser contemplad
 
 ### O banco deverá permitir:
 
-1. 
-2. 
-3. 
-4. 
-5. 
+1. cadastro de cliente, cpf, rg, endereço e celular
+2. produto, preço, quantidade de estoque
+3. registra pedido,ao cliente especifico com data de compra
+4. qual produto, quantidade, preço cobrado, frete
+5. histórico de compra dos clientes
 
 ---
 
@@ -150,11 +152,11 @@ Pagamento
 
 | Nº | Entidade | O que representa? |
 |---:|---|---|
-| 1 |  |  |
-| 2 |  |  |
-| 3 |  |  |
-| 4 |  |  |
-| 5 |  |  |
+| 1 | cliente |id_cliente  |
+| 2 | produto | id_produto |
+| 3 |pedido  | id_produto |
+| 4 | item_pedido |  |
+| 5 | pagamento |  |
 | 6 |  |  |
 
 > Como referência para esta atividade, planeje **pelo menos 4 tabelas relacionadas**.
